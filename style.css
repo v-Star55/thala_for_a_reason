@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    padding: 2rem;
+    min-height: 100vh;
+    background:#FEBE10;
+}
+
+.heading{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: rgb(80, 80, 255);
+
+}
+
+.container{
+
+    width: 100%;
+    min-height: 90vh;
+    padding: 0 3rem;
+    border-radius: 20px;
+    background: #ffffff7f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.269);
+
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+    height: 80vh;
+}
+
+.main{
+    /* border: 1px solid #ff0000; */
+    padding: 0 1rem;
+}
+.img{
+    /* border: 2px solid #000000; */
+    height: 80vh;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    object-position: right;
+    object-fit: contain;
+
+}
+
+
+.hidden{
+    display: none;
+}
+
+/* //////////////////////////////////// Form */
+
+form{
+    text-align: center;
+}
+
+form input{
+    width: 100%;
+    color: #FEBE10;
+    height: 3rem;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+    /* box-shadow: 0 0 2px rgba(0, 0, 0, 0.429); */
+}
+
+form input:focus{
+    color: #2255A4;
+    outline: none;
+}
+
+form button{
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 20px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    background: #3c84ef;
+    color: #ffffff;
+}
+
+form button:hover{
+    background: #FEBE10;
+    color: #ffffff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.486);
+}
+
+/* //////////////////////////////////////////// Quote */
+.quote{
+    
+    margin-top: 1rem;
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    color: #222222;
+    /* border: 2px solid #000000; */
+}
+
+
+.quoteby{
+    text-align: right;
+    color: #3c84ef;
+    font-weight: 500;
+
+} 
+
+/* ////////////////////////////////////////////// THALA */
+.thala, .notThala{
+    margin-top: 1rem;
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    /* border: 2px solid #000000; */
+}
+
+.thala-text{
+    font-weight: 600;
+    font-size: 2rem;
+    color: #FEBE10;
+}
+
+.thala-text span{
+    color: #3c84ef;
+}
+
+.thalaVideo{
+    width: 10rem;
+    border-radius: 10px;
+}
+
+/* //////////////////////////////////////////////// Footer*/
+footer{
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #222222;
+    background-color: white;
+}
+
+
+
+/* //////////////////////////////////////////////// Media Query */
+
+@media (max-width: 1200px){
+    .content{
+        display: block;
+        height: auto;
+    }
+
+    .img{
+        height: auto;
+    }
+
+    .img img{
+        object-position: center;
+    }
+
+    .main{
+        padding: 0 1rem;
+    }
+
+    .thala, .notThala{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .image{
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .thalaVideo{
+        width: 100%;
+    }
+}
+
