@@ -191,6 +191,10 @@ footer{
         margin-bottom: 1rem;
     }
 
+    .thala-Text{
+        font-size: 1.3rem;
+    }
+
     .image{
         width: 100%;
         height: auto;
