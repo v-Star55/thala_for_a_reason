@@ -87,6 +87,11 @@ document.querySelector("form").addEventListener("submit", function (event) {
         return;
     }
 
+    if(num===2019){
+        alert("Yeh yaad mat dila !! Amaa Behen par aajaunga mein !!");
+        return;
+    }
+
     // Checking if input is a number
 
     if (isNaN(num) === false) {
