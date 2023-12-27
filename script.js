@@ -78,12 +78,12 @@ document.querySelector("form").addEventListener("submit", function (event) {
     }
 
     if(notValid.includes(input)){
-        alert("Saale naam kyu likh raha hai?");
+        alert("Bhai naam kyu likh raha hai?");
         return; 
     }
 
     if(num===1983){
-        alert("Chaman Voh MS Dhoni ne nahi jeet vaya tha, Kapil Dev ne jeetaya tha !!");
+        alert("Bhai voh MS Dhoni ne nahi jeetvaya tha, Kapil Dev ne jeetaya tha !!");
         return;
     }
 
