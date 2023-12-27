@@ -109,26 +109,29 @@ document.querySelector("form").addEventListener("submit", function (event) {
             if (ans === 7) {
                 reason.innerHTML = "The sum of the digits is 7";
             }
-            if (num % 7 === 0) {
+            else if (num % 7 === 0) {
                 reason.innerHTML = "The number is divisible by 7";
             }
-            if (num === 7 || input === "7") {
+           else if (num === 7 || input === "7") {
                 reason.innerHTML = "The number is 7";
             }
-            if(num===5){
+            else if(num===5){
                 reason.innerHTML="CSK won IPL 5 times";
             }
-            if(num===2011){
+            else if(num===2011){
                 reason.innerHTML="India won the world cup in 2011";
             }
-            if(num===2007){
+            else if(num===2007){
                 reason.innerHTML="India won the T20 world cup in 2007";
             }
-            if(num===2013){
+            else if(num===2013){
                 reason.innerHTML="India won the Champions Trophy in 2013";
             }
-            if(num===1981){
+            else if(num===1981){
                 reason.innerHTML="THALA was born in 1981";
+            }
+            else{
+                reason.innerHTML = "You wrote " + input+ " which is 7 characters long";
             }
 
         }
