@@ -83,7 +83,7 @@ document.querySelector("form").addEventListener("submit", function (event) {
     }
 
     if(num===1983){
-        alert("Bhai voh MS Dhoni ne nahi jeetvaya tha, Kapil Dev ne jeetaya tha !!");
+        alert("Bhai v oh MS Dhoni ne nahi jeetvaya tha, Kapil Dev ne jeetaya tha !!");
         return;
     }
 
